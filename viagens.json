@@ -1,0 +1,39 @@
+[
+  {
+    "nome": "Viagem de Janeiro",
+    "listaDestinos": [
+      {
+        "dadosClima": {
+          "nomeCidade": "Sao Paulo",
+          "nomePais": "Brazil",
+          "temperaturaCelsius": 21.3,
+          "descricaoClima": "Sol"
+        }
+      },
+      {
+        "dadosClima": {
+          "nomeCidade": "Rio De Janeiro",
+          "nomePais": "Brazil",
+          "temperaturaCelsius": 21.2,
+          "descricaoClima": "Sol"
+        }
+      },
+      {
+        "dadosClima": {
+          "nomeCidade": "Ceara-Mirim",
+          "nomePais": "Brazil",
+          "temperaturaCelsius": 28.1,
+          "descricaoClima": "Parcialmente nublado"
+        }
+      },
+      {
+        "dadosClima": {
+          "nomeCidade": "Belo Horizonte",
+          "nomePais": "Brazil",
+          "temperaturaCelsius": 23.1,
+          "descricaoClima": "Parcialmente nublado"
+        }
+      }
+    ]
+  }
+]
