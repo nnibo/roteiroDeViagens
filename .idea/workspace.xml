@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1af3de2a-1e23-483e-8914-131eb8b73479" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelos/DadosCep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/ConsultaViaCepAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roteiroDeViagens.iml" beforeDir="false" afterPath="$PROJECT_DIR$/roteiroDeViagens.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/ClimaResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/ClimaResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/DadosClima.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/DadosClima.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/Destino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/Destino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/principal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ConsultaWeatherAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ConsultaWeatherAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/viagens.json" beforeDir="false" afterPath="$PROJECT_DIR$/viagens.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +70,8 @@
       <workItem from="1754019632415" duration="1724000" />
       <workItem from="1754074663631" duration="974000" />
       <workItem from="1754088915497" duration="1988000" />
-      <workItem from="1754156643940" duration="4385000" />
+      <workItem from="1754156643940" duration="4850000" />
+      <workItem from="1754175634412" duration="2594000" />
     </task>
     <servers />
   </component>

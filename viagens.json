@@ -1,29 +1,29 @@
 [
   {
-    "nome": "Viagem com amigos",
+    "nome": "Viagem conhecendo SP e RJ",
     "listaDestinos": [
       {
         "dadosCep": {
-          "bairro": "Ipiranga",
+          "bairro": "República",
           "localidade": "São Paulo",
           "estado": "São Paulo",
           "regiao": "Sudeste"
         },
         "dadosClima": {
-          "temperaturaCelsius": 25.0,
-          "descricaoClima": "Sol"
+          "temperaturaCelsius": 17.3,
+          "descricaoClima": "Céu limpo"
         }
       },
       {
         "dadosCep": {
-          "bairro": "Nazaré",
-          "localidade": "Salvador",
-          "estado": "Bahia",
-          "regiao": "Nordeste"
+          "bairro": "Botafogo",
+          "localidade": "Rio de Janeiro",
+          "estado": "Rio de Janeiro",
+          "regiao": "Sudeste"
         },
         "dadosClima": {
-          "temperaturaCelsius": 26.3,
-          "descricaoClima": "Parcialmente nublado"
+          "temperaturaCelsius": 22.3,
+          "descricaoClima": "Céu limpo"
         }
       }
     ]
