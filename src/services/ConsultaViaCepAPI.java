@@ -2,9 +2,7 @@ package services;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import modelos.ClimaResponse;
 import modelos.DadosCep;
-import modelos.DadosClima;
 
 import java.io.IOException;
 import java.net.URI;
@@ -12,27 +10,28 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class ConsultaWeatherAPI {
+public class ConsultaViaCepAPI {
     Gson gson = new GsonBuilder()
             .setPrettyPrinting()
             .create();
 
-    public DadosClima consultarClima(DadosCep dadosCep){
-        String apiKey = "036642e634d84d4da7b34931250507";
-        String url = "https://api.weatherapi.com/v1/current.json?key="+apiKey+"&q="+dadosCep.localidade().replace(" ", "%20")+"&lang=pt";
-        try{
+    public DadosCep consultaCep(String cep) {
+        String url = "https://viacep.com.br/ws/" + cep + "/json/";
+
+        try {
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(url))
                     .build();
+
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            ClimaResponse climaResponse = gson.fromJson(response.body(), ClimaResponse.class);
-            DadosClima dadosClima = new DadosClima(climaResponse);
-            return dadosClima;
+            String json = response.body();
+            return gson.fromJson(json, DadosCep.class);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
+
 }

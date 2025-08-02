@@ -1,4 +1,4 @@
 package modelos;
 
-public record ClimaResponse(Location location, Current current) {
+public record ClimaResponse(Current current) {
 }

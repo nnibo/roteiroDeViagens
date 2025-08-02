@@ -1,21 +1,35 @@
 package modelos;
 
 public class Destino {
+    private DadosCep dadosCep;
     private DadosClima dadosClima;
 
-    public Destino(DadosClima dadosClima) {
-        this.dadosClima = dadosClima;
-    }
 
-    public DadosClima getDadosClima() {
-        return dadosClima;
+    public Destino(DadosCep dadosCep, DadosClima dadosClima) {
+        this.dadosCep = dadosCep;
+        this.dadosClima = dadosClima;
     }
 
     @Override
     public String toString() {
-        return "Destino{" +
-                "Pais: " + dadosClima.getNomePais() +
-                "Cidade: " + dadosClima.getNomeCidade() +
-                "Temperatura: " + dadosClima.getTemperaturaCelsius() + "Descrição: " + dadosClima.getDescricaoClima();
+        return """
+            🌍 Informações do Destino:
+            ─────────────────────────────
+            📍 Estado     : %s
+            🏙️  Cidade     : %s
+            🏘️  Bairro     : %s
+            🌎 Região     : %s
+
+            ☁️  Clima Atual:
+            🌡️  Temperatura: %.1f°C
+            📖 Descrição  : %s
+            """.formatted(
+                dadosCep.estado(),
+                dadosCep.localidade(),
+                dadosCep.bairro(),
+                dadosCep.regiao(),
+                dadosClima.getTemperaturaCelsius(),
+                dadosClima.getDescricaoClima()
+        );
     }
 }

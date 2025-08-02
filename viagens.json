@@ -1,36 +1,28 @@
 [
   {
-    "nome": "Viagem de Janeiro",
+    "nome": "Viagem com amigos",
     "listaDestinos": [
       {
+        "dadosCep": {
+          "bairro": "Ipiranga",
+          "localidade": "São Paulo",
+          "estado": "São Paulo",
+          "regiao": "Sudeste"
+        },
         "dadosClima": {
-          "nomeCidade": "Sao Paulo",
-          "nomePais": "Brazil",
-          "temperaturaCelsius": 21.3,
+          "temperaturaCelsius": 25.0,
           "descricaoClima": "Sol"
         }
       },
       {
+        "dadosCep": {
+          "bairro": "Nazaré",
+          "localidade": "Salvador",
+          "estado": "Bahia",
+          "regiao": "Nordeste"
+        },
         "dadosClima": {
-          "nomeCidade": "Rio De Janeiro",
-          "nomePais": "Brazil",
-          "temperaturaCelsius": 21.2,
-          "descricaoClima": "Sol"
-        }
-      },
-      {
-        "dadosClima": {
-          "nomeCidade": "Ceara-Mirim",
-          "nomePais": "Brazil",
-          "temperaturaCelsius": 28.1,
-          "descricaoClima": "Parcialmente nublado"
-        }
-      },
-      {
-        "dadosClima": {
-          "nomeCidade": "Belo Horizonte",
-          "nomePais": "Brazil",
-          "temperaturaCelsius": 23.1,
+          "temperaturaCelsius": 26.3,
           "descricaoClima": "Parcialmente nublado"
         }
       }
